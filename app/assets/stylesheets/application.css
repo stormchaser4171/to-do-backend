@@ -13,7 +13,10 @@
  *= require_tree .
  *= require_self
  */
-h1 {
+html,body{
+    height:100%;
+}
+.indexheader{
     color:blue; 
      background-color:black;
      text-align:center;
@@ -25,13 +28,14 @@ h1 {
 }
 ul{
     list-style-type:none;
+    display:inline;
 }
-body{
+.index{
     background-image:url("http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/nightlights/nightlights-000849-ultramarine-blue.jpg");
 background-repeat: no-repeat;
-background-size: cover;
+height:100%;
 }
-li{
+.indexli{
     font-size:xx-large;
     color:orange;
 }
@@ -44,4 +48,39 @@ li{
 input{
     box-shadow:10px 5px 10px black;
     display:inline;
+}
+.showli{
+    color:#0000cc;
+    font-size: xx-large;
+    background-color:#000000;
+    text-align: justify;
+    margin: 20px 1000px 0px 30px;
+    border-style:double;
+    border-width: 15px;
+    border-color: #0000cc;
+    font-family: Helvetica;
+    box-shadow: 10px 10px 15px black;
+}
+.show{
+    background-image:url("https://ak6.picdn.net/shutterstock/videos/2361821/thumb/1.jpg?i10c=img.resize(height:160");
+    background-size:cover;
+}
+.red{
+    color:red !important;
+    font-size:x-large;
+}
+.showops{
+    font-size: x-large;
+background-color:black;
+color:blue;
+border-style:inset;
+border-color: grey;
+ box-shadow:5px 5px 5px black;
+ display:inline;
+}
+p{
+    color:black;
+    font-size:large;
+    font-style: oblique;
+    font-family: Arial;
 }
