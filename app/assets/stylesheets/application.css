@@ -15,12 +15,13 @@
  */
 html,body{
     height:100%;
+    margin: 0px 0px 0px 0px;
 }
 .indexheader{
     color:blue; 
      background-color:black;
      text-align:center;
-     margin: 50px 0px 50px 0px;
+     margin: 0px 0px 50px 0px;
      padding: 50px 50px 50px 50px;
      border-style:groove;
      border-width:25px;
@@ -34,40 +35,47 @@ ul{
     background-image:url("http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/nightlights/nightlights-000849-ultramarine-blue.jpg");
 background-repeat: no-repeat;
 height:100%;
+width:100%;
+background-size:cover;
 }
 .indexli{
     font-size:xx-large;
     color:orange;
+    margin-left: 70px
 }
 .text-input{
     color:red;
+    margin-left:50px;
 }
 .button{
     color:purple;
+    margin-left: 50px;
 }
 input{
     box-shadow:10px 5px 10px black;
-    display:inline;
 }
 .showli{
     color:#0000cc;
     font-size: xx-large;
     background-color:#000000;
-    text-align: justify;
-    margin: 20px 1000px 0px 30px;
+    text-align:center;
     border-style:double;
     border-width: 15px;
     border-color: #0000cc;
     font-family: Helvetica;
     box-shadow: 10px 10px 15px black;
+    margin:0px 400px 0px 400px;
 }
 .show{
     background-image:url("https://ak6.picdn.net/shutterstock/videos/2361821/thumb/1.jpg?i10c=img.resize(height:160");
+    height:100%;
+    background-repeat:no-repeat;
     background-size:cover;
 }
 .red{
     color:red !important;
-    font-size:x-large;
+    font-size: xx-large;
+    margin-left:70px;
 }
 .showops{
     font-size: x-large;
@@ -76,6 +84,7 @@ color:blue;
 border-style:inset;
 border-color: grey;
  box-shadow:5px 5px 5px black;
+ margin-left: 50px;
  display:inline;
 }
 p{
@@ -83,4 +92,12 @@ p{
     font-size:large;
     font-style: oblique;
     font-family: Arial;
+    text-indent:30px;
+}
+.delete{
+    color:red;
+    
+}
+.desc{
+    margin-top:10px;
 }
