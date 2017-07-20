@@ -105,3 +105,14 @@ h1{
     margin:0px 0px 0px 0px;
     color:blue;
 }
+.card{
+    background-color: blue;
+    height:100%;
+}
+h2{
+    margin-top:0px;
+}
+.back{
+    color:orange;
+    font-size: x-large;
+}
