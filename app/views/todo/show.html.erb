@@ -1,8 +1,9 @@
+<h1>Todo#<%=params[:id] %></h1>
        <div class=show>
         <ul style="list-style:none">
           <div class="showli">  <li>
                 <input type="checkbox">
-              Lunch
+              <%=@todo_description%> <%=@todo_pomodoro_estimate%>
             </li> </div></ul>
        <div class=showops> <a href="#">Edit</a>
         <a class="delete" href="#">Delete</a>
