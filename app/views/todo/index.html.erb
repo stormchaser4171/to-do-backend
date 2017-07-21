@@ -1,14 +1,19 @@
     <div class="index">
      <div class="indexheader">  <h1>TO DO LIST</h1> </div> 
     <div id="new-todo-block">
-        <input id="new-pomodoro-estimate" class="text-input" type="number" placeholder="Put Number" >
-    <div class=desc><input id="new-todo-description" class="text-input" type="text" placeholder="desc."></div>
     <br>
-    <input id="add-new-todo-button" class="button" type="submit" value="Acknowledge">
     </div>
-    <ul style="list-style:none">
-        <a href="show.html"><li class="indexli"><input type="checkbox">Lunch</li></a>
-        <a href="#"><li class="red"><input type="checkbox">Back to Work</li></a>
-        <a href="#"><li class="indexli"><input type="checkbox">Leave</li></a></div>
+    <ul class="card1" style="list-style:none">
+        <% @todos.each do |todo| %>
+            <div class=indexli><li>
+                <input type="checkbox" name=""/>
+                <a href="todo/show/<%=todo.id %>"><%=todo.description %>
+                <span class="pomodoro-estimate small-pomodoro-estimate"><%=todo.pomodoro_estimate %> Pomodoros</span></a>
+            </li>
+        <% end %>
+       
     </ul>    
+    </div>
+    <div id="new-todo-block">
+        <a href="/todo/new" class="button add-new-todo-button" id="add-new-todo-button">Add a todo</a>
     </div>

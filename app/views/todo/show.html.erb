@@ -5,9 +5,9 @@
                 <input type="checkbox">
               <%=@todo.description%> <%=@todo.pomodoro_estimate%>
             </li> </div></ul>
-       <div class=showops> <a href="#">Edit</a>
-        <a class="delete" href="#">Delete</a>
-        <a href="index.html">Go Back</a></div>
+       <div class=showops> <a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a>
+        <a class="delete" href="/todo/destroy/<%= @todo.id %>">Delete</a>
+        <a href="/" class="simple-link">Go Back</a></div>
         <br>
         <div><p>desc.</p></div>
         </div>

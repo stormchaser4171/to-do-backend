@@ -41,7 +41,8 @@ background-size:cover;
 .indexli{
     font-size:xx-large;
     color:orange;
-    margin-left: 70px
+    margin-left: 70px;
+    margin-top:10px;
 }
 .text-input{
     color:red;
